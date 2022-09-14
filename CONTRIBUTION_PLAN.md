@@ -64,13 +64,13 @@ The team at Cypress does utilize labels for their [issue tracker](https://github
 
 The team have some guides on how to develop and contribute to the project, but nothing extensive. I have not really battle-tested the guides and documentation for developers yet, but hope to get a good start from it.
 
-Lastly, Cypress has what seems like an active Discord where users and developers can interact with each other. The team at Cypress seem to be very welcoming and nice to everyone. 
+Lastly, Cypress has what seems like an active Discord where users and developers can interact with each other. The team at Cypress seem to be very welcoming and nice to everyone. As Cypress is a for-profit company with hired developers, I will of course not have access to their internal communications, in which they hold discussions and make decisions. 
 
 | Process difficulty | Issue tracker                                    | Documentation                                                              | Communications                                              |
 |--------------------|--------------------------------------------------|----------------------------------------------------------------------------|-------------------------------------------------------------|
 | **Easy**           | Contains issues tagged as suitable for beginners | Contains guides and tutorials for new developers                           | Contains specific communication channels for new developers |
-| **Medium**         | Contains issues marked with difficulty           | **Contains introduction chapters and suggested readings in documentation** | **Contains open communication channels**                    |
-| **Hard**           | **No metadata on difficulty in issue tracker**   | No clear introduction to new developers                                    | Restricted communication channels                           |
+| **Medium**         | Contains issues marked with difficulty           | **Contains introduction chapters and suggested readings in documentation** | Contains open communication channels                        |
+| **Hard**           | **No metadata on difficulty in issue tracker**   | No clear introduction to new developers                                    | **Restricted communication channels**                       |
 
 ## Development process
 
