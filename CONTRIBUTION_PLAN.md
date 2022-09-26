@@ -42,13 +42,11 @@ I have decided to contribute to [Cypress](https://www.cypress.io/), an end-to-en
 | **CSV**             |        3 |         0 |         0 |          9 |
 | **SUM:**            | **4640** | **84230** | **43456** | **450927** |
 
-
-
 ## Technical difficulty
 
-Below are my estimations of the technical difficulty marked in **bold**. To start of, the test suite is quite extensive and includes multiple different types of tests. When running these, I get some errors on my machine which I could not trivially solve. The build does however seem to be a bit simpler and I have yet not run into any problems. 
+Below are my estimations of the technical difficulty marked in **bold**. To start of, the test suite is quite extensive and includes multiple different types of tests. When running these, I get some errors on my machine which I could not trivially solve. The build does however seem to be a bit simpler and I have yet not run into any problems.
 
-As for domain knowledge, there are quite a few advanced concepts such as network stubbing, controlled code execution, interaction with browsers and other concepts which makes the application a bit complex. 
+As for domain knowledge, there are quite a few advanced concepts such as network stubbing, controlled code execution, interaction with browsers and other concepts which makes the application a bit complex.
 
 Lastly, the project is about ~450 KLOC with several components such as CLI, test executor, driver, stubbing etc. This together with the quite extensive dependency list (as is common for JS/TS projects…). All these interact with each other and are tested.
 
@@ -64,7 +62,7 @@ The team at Cypress does utilize labels for their [issue tracker](https://github
 
 The team have some guides on how to develop and contribute to the project, but nothing extensive. I have not really battle-tested the guides and documentation for developers yet, but hope to get a good start from it.
 
-Lastly, Cypress has what seems like an active Discord where users and developers can interact with each other. The team at Cypress seem to be very welcoming and nice to everyone. As Cypress is a for-profit company with hired developers, I will of course not have access to their internal communications, in which they hold discussions and make decisions. 
+Lastly, Cypress has what seems like an active Discord where users and developers can interact with each other. The team at Cypress seem to be very welcoming and nice to everyone. As Cypress is a for-profit company with hired developers, I will of course not have access to their internal communications, in which they hold discussions and make decisions.
 
 | Process difficulty | Issue tracker                                    | Documentation                                                              | Communications                                              |
 |--------------------|--------------------------------------------------|----------------------------------------------------------------------------|-------------------------------------------------------------|
@@ -82,7 +80,26 @@ While Cypress is open source, it is still a for-profit company behind it. I thin
 | **Medium**          | **Shares documentation and material, and also gives valuable feedback on others' contributions**                     | **Uses the plan actively and updates the plan to take into account new information and events**                                                                     | **Takes care to follow established good practices in continuous development and testing**                                 |
 | **Hard**            | Actively helps team members improve, and provides tutorials or other help to team members                            | Uses external sources from the host project to validate the feasibility of the plan and to update accordingly                                                       | Contributes with general quality improvements for the process of developing, building and testing software in the project |
 
-## Contributions
+## Individual contribution
 
-TO BE ADDED
+My goal is to reach at least medium on the individual contribution. I hope this is possible given the complexity of the project and the fact that it is .
+
+## Point summation
+
+| Category                | Level       | Points |
+|-------------------------|-------------|-------:|
+| Technical difficulty    | Medium      |     12 |
+| Process difficulty      | Medium/Hard |      8 |
+| Development difficulty  | Medium      |      8 |
+| Individual contribution | Medium      |     16 |
+| **Total**               | **Grade 4** | **44** |
+
+## Sprints 
+
+### Sprint 1
+
+- [] Introduce myself in the Discord server
+- [] Read contributing guidlines
+- [] Make first (small) PR
+- [] Find good first (larger) issue to 
 
