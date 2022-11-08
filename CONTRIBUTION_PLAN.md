@@ -67,39 +67,66 @@ Lastly, Cypress has what seems like an active Discord where users and developers
 | Process difficulty | Issue tracker                                    | Documentation                                                              | Communications                                              |
 |--------------------|--------------------------------------------------|----------------------------------------------------------------------------|-------------------------------------------------------------|
 | **Easy**           | Contains issues tagged as suitable for beginners | Contains guides and tutorials for new developers                           | Contains specific communication channels for new developers |
-| **Medium**         | Contains issues marked with difficulty           | **Contains introduction chapters and suggested readings in documentation** | Contains open communication channels                        |
-| **Hard**           | **No metadata on difficulty in issue tracker**   | No clear introduction to new developers                                    | **Restricted communication channels**                       |
+| **Medium**         | **Contains issues marked with difficulty**       | **Contains introduction chapters and suggested readings in documentation** | Contains open communication channels                        |
+| **Hard**           | No metadata on difficulty in issue tracker       | No clear introduction to new developers                                    | **Restricted communication channels**                       |
+
+> NOTE: The issue tracker difficulty has been decreased from hard to medium due to the fact that the (relatively) small number of issues that have difficulty labels has been useful.
 
 ## Development process
 
 While Cypress is open source, it is still a for-profit company behind it. I think this can make contributing a bit harder as I, on some level, will "compete" with people being paid to contribute to the project. This also means that they have bigger resources to create good processes and tools to use, meaning I think it can be hard for me to reach what is here considered "Hard". I do however aim to do serious contributions and to help out. I do think I have some qualities and experience from work and earlier hobby projects which could come handy.
 
-| Development process | Group contributions                                                                                                  | Planning and reflection                                                                                                                                             | Engineering practice                                                                                                      |
-|---------------------|----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| **Easy**            | Shares code, tutorials and development tips to other members of the team. Actively participates in project meetings. | Creates a plan for each sprint with sufficient details to guide the work, amounting to a number of hours that correspond the amount of credits given by the course. | Uses the required set of tools and suggested practices for code contributions in the host project                         |
-| **Medium**          | **Shares documentation and material, and also gives valuable feedback on others' contributions**                     | **Uses the plan actively and updates the plan to take into account new information and events**                                                                     | **Takes care to follow established good practices in continuous development and testing**                                 |
-| **Hard**            | Actively helps team members improve, and provides tutorials or other help to team members                            | Uses external sources from the host project to validate the feasibility of the plan and to update accordingly                                                       | Contributes with general quality improvements for the process of developing, building and testing software in the project |
+| Development process | Group contributions                                                                                                      | Planning and reflection                                                                                                                                                 | Engineering practice                                                                                                      |
+|---------------------|--------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| **Easy**            | **Shares code, tutorials and development tips to other members of the team. Actively participates in project meetings.** | **Creates a plan for each sprint with sufficient details to guide the work, amounting to a number of hours that correspond the amount of credits given by the course.** | Uses the required set of tools and suggested practices for code contributions in the host project                         |
+| **Medium**          | Shares documentation and material, and also gives valuable feedback on others' contributions                             | ****Uses the plan actively and updates the plan to take into account new information and events****                                                                     | **Takes care to follow established good practices in continuous development and testing**                                 |
+| **Hard**            | Actively helps team members improve, and provides tutorials or other help to team members                                | Uses external sources from the host project to validate the feasibility of the plan and to update accordingly                                                           | Contributes with general quality improvements for the process of developing, building and testing software in the project |
+
+> NOTE: This has been lowered due to me understanding these as being related to the Cypress team, not the sprint group. Having a separate and quite different project has made it harder to share input and similar.
 
 ## Individual contribution
 
-My goal is to reach at least medium on the individual contribution. I hope this is possible given the complexity of the project and the fact that it is .
+My goal is to reach a medium level on the individual contributions. I hope this is possible given the complexity of the project and the fact that it has a lot of open issues.
 
 ## Point summation
 
 | Category                | Level       | Points |
 |-------------------------|-------------|-------:|
 | Technical difficulty    | Medium      |     12 |
-| Process difficulty      | Medium/Hard |      8 |
+| Process difficulty      | Medium/Hard |      7 |
 | Development difficulty  | Medium      |      8 |
-| Individual contribution | Medium      |     16 |
-| **Total**               | **Grade 4** | **44** |
+| Individual contribution | Easy/Medium |     10 |
+| **Total**               | **Grade 4** | **37** |
 
-## Sprints 
+## Sprints
 
-### Sprint 1
+### Sprint 1 (week 37-39)
 
-- [] Introduce myself in the Discord server
-- [] Read contributing guidlines
-- [] Make first (small) PR
-- [] Find good first (larger) issue to 
+- [x] Introduce myself in the Discord server
+- [x] Read [contributing guidelines](https://github.com/cypress-io/cypress/blob/develop/CONTRIBUTING.md)
+- [ ] Make first (small) PR
+- [ ] Find good first (larger) issue to contribute to
+
+The contribution guidelines were very good and useful. Most of it was very reasonable.  
+
+As for the PR, even though there are 2.7K issues, most of them seems to be quite complex from what I've found. Will have to move this to next sprint.
+
+### Sprint 2 (week 39 - 41)
+
+This sprint was mostly about the first issue and pull request. I have also searched of more issues to take on, but I have noticed it's generally hard to get an understanding of how hard/complex issues are. I think this is mostly due to there being many moving parts and different sub-packages. 
+
+* [Issue](https://github.com/cypress-io/cypress/issues/23995)
+* [Pull Request](https://github.com/cypress-io/cypress/pull/24089)
+
+What I noticed was the speed of development they had. I see this as both nice and as a bit of a trouble as it's nice to know that I can get quick responses, but I at the same time need to be quick with PRs and issues to get them solved and merged into the `develop` branch. 
+
+### Sprint 3 (week 41 - 44)
+
+Used Cypress a bit more on a project at work to get to know Cypress and its features. This sprint also included a lot of focus on other studying and the exam period, so not much has been done,
+
+### Sprint 4 (week 44 - 46)
+
+It is very much die time to find new issue to work on. I hop my now looser schedule will mean that I can put in more time and energy to quickly solve an issue and get a PR merged.
+
+I have started looking at an issue ([link](https://github.com/cypress-io/cypress/issues/23679)).
 
