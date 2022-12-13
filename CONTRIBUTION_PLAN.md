@@ -126,7 +126,21 @@ Used Cypress a bit more on a project at work to get to know Cypress and its feat
 
 ### Sprint 4 (week 44 - 46)
 
-It is very much die time to find new issue to work on. I hop my now looser schedule will mean that I can put in more time and energy to quickly solve an issue and get a PR merged.
+This sprint included quite a lot of dead time to find new issue to work on. I hop my now looser schedule will mean that I can put in more time and energy to quickly solve an issue and get a PR merged.
 
 I have started looking at an issue ([link](https://github.com/cypress-io/cypress/issues/23679)).
+
+### Sprint 5 (week 47-48)
+
+This sprint included a lot of work on the ealier mentioned [issue](https://github.com/cypress-io/cypress/issues/23679). The solution is not trivial and is related to how markdown handles lines beginning with spaces. Normally, markdown removes these but that is not always wanted. The used library seems to have no settings for these, making the solution harder. The found solution is to escape all rows with `&#32;`, the HTML entity for space. [Link to PR](https://github.com/cypress-io/cypress/pull/24687).
+
+I also looked at a last issue to work on, and found this one: [link](https://github.com/cypress-io/cypress/issues/21730). I started working on it a bit, but did not reach a PR.
+
+### Sprint 6 (week 49-50)
+
+I opened a new PR for the issue I started looking on in sprint 5 ([link](https://github.com/cypress-io/cypress/pull/24996)).
+
+The rest of the sprint consisted on trying to fix issues with tests and to get them over the line. I had not noticed them earlier due to flakiness of their tests, meaning I thought they were false positives. They are a bit hard to solve, especially for the markdown space fix. This is mostly due to the fix being quite "dirty".
+
+What surprised me from the first PR is the much slower space the maintainers seem to have. Last time, things moved very quickly, now It's much less press and stress. 
 
